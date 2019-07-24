@@ -33,6 +33,10 @@ public class Collection1 {
 
         int a;
 
+        int b;
+
+
+
     }
 
 

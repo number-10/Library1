@@ -31,6 +31,8 @@ public class Collection1 {
             System.out.println(temp.getKey()+"---"+temp.getValue());
         }
 
+        int a;
+
     }
 
 

@@ -25,13 +25,15 @@ public class Collection1 {
 
         HashMap<String,Object> map2 = new HashMap<String, Object>();
         map2.put(new String("name"),1);
-        map2.put("name",2);
+        map2.put("name","哈哈");
 
         for(Map.Entry<String,Object> temp : map2.entrySet()){
             System.out.println(temp.getKey()+"---"+temp.getValue());
         }
 
-        int a;
+        int hashCode1 = map2.get("name").hashCode();
+        System.out.println("hashCode1: "+hashCode1);
+
 
     }
 
